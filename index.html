@@ -52,17 +52,21 @@
 	<div class="akwidget" id="rsvp">
 		<div id="about-rsvp">
 			<h1>Ready for More?</h1>
-			<p>text text text</p>
-			<a href="javascript:showForm('rsvp-form','about-rsvp');">Click to RSVP now!</a>
+			<p class="aboutbox">Since #NotYourAsianSidekick, lots of commentators have called for a deeper conversation about Asian Americans & Pacific Islanders, women, race, and justice.
+			We're answering the call with our first Google Hangout On Air, featuring some very special guests, to talk about what #NotYourAsianSidekick means for the present
+			and future of AAPI organizing--and how it's informed by the past.</p>
+			<h2 class="aboutclick">You're Cordially Invited to Join Us!</h2>
+			<a class="aboutclick" href="javascript:showForm('rsvp-form','about-rsvp');">Click to RSVP.</a>
 		</div>
 		<div id="rsvp-form" style="display:none;">
+			<h1>Ready for More?</h1>
+			<h3>We'll send you a reminder with a watch link!</h3>
 			<form class="actionkit-widget" id="pledge" name="pledge" action="http://act.engagementlab.org/act/" onsubmit="this.submitted=1;return false">
 				<input type="hidden" name="page" value="18MR_NYAS-rsvp">
 				<label for="id_name">Name:</label> <input value="" id="id_name" type="text" name="name" /> 
 				<label for="id_email">Email:</label> <input value="" id="id_email" type="text" name="email" />
-				<label for="id_zip">Zipcode:</label> <input value="" id="id_zip" type="text" name="zip" size="5" />
-				<select name="country">
-				<option value="">Country...</option>
+				<label for="id_country">Country:</label> <select name="country">
+				<option value></option>
 				<option value="Afganistan">Afghanistan</option>
 				<option value="Albania">Albania</option>
 				<option value="Algeria">Algeria</option>
@@ -309,7 +313,9 @@
 				<option value="Zaire">Zaire</option>
 				<option value="Zambia">Zambia</option>
 				<option value="Zimbabwe">Zimbabwe</option>
-			</select>
+			</select><br/>
+				<span>(if in the U.S., please enter a zipcode)</span><br/>
+				<label for="id_zip">Zipcode:</label> <input value="" id="id_zip" type="text" name="zip" size="5" />
 				<input type="submit" value="RSVP">
 				<span>(see <a href="http://18millionrising.org/privacy">privacy policy</a>)</span>
 			</form>	
@@ -320,16 +326,22 @@
 <!-- Suggestion Box -->
 	<div class="akwidget" id="suggest">
 		<div id="about-suggest">
-			<a href="javascript:showForm('suggest-form','about-suggest');">Suggest a topic for upcoming forums.</a>
+			<h1>Let's Talk.</h1>
+			<p class="aboutbox">The first Google Hangout On Air isn't the end. Like the hashtag, it's just the beginning. If you have an idea of a topic we should cover in a future
+			Google Hangout, let us know! We'd also love your ideas for future guests, questions to ask, or formats to try. #NotYourAsianSidekick is your conversation. Let us know how
+			to keep you in it.</p>
+			<h2 class="aboutclick">Tell Us What You Want To Talk About!</h2>
+			<a class="aboutclick" href="javascript:showForm('suggest-form','about-suggest');">Suggest a topic for upcoming forums.</a>
 		</div>
 		<div id="suggest-form" style="display:none;">
+			<h1>Let's Talk.</h1>
+			<h3>Your idea could be featured. Have at it.</h3>
 			<form class="actionkit-widget" id="pledge" name="pledge" action="http://act.engagementlab.org/act/" onsubmit="this.submitted=1;return false">
 				<input type="hidden" name="page" value="18MR_NotYourAsianSidekick">
 				<label for="id_name">Name:</label> <input value="" id="id_name" type="text" name="name" /> 
 				<label for="id_email">Email:</label> <input value="" id="id_email" type="text" name="email" />
-				<label for="id_zip">Zipcode:</label> <input value="" id="id_zip" type="text" name="zip" size="5" />
-				<select name="country">
-				<option value="">Country...</option>
+				<label for="id_country">Country:</label> <select name="country">
+				<option></option>
 				<option value="Afganistan">Afghanistan</option>
 				<option value="Albania">Albania</option>
 				<option value="Algeria">Algeria</option>
@@ -577,7 +589,9 @@
 				<option value="Zambia">Zambia</option>
 				<option value="Zimbabwe">Zimbabwe</option>
 			</select>
-				<input type="submit" value="ORDER">
+				<span>(if in the U.S., please enter a zipcode)</span><br/>
+				<label for="id_zip">Zipcode:</label> <input value="" id="id_zip" type="text" name="zip" size="5" />
+				<input type="submit" value="SUBMIT">
 			<span>(see <a href="http://18millionrising.org/privacy">privacy policy</a>)</span>
 			</form>
 		<script src="http://act.engagementlab.org/samples/widget.js"></script>

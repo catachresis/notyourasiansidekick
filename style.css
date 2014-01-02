@@ -394,207 +394,13 @@ body:after {
 .clearfix:after {
   clear: both;
 }
-#story_page .form-widget {
-  width: 100%;
-  background-color: #8bc63e;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  padding: 10px 20px;
-  margin-top: 10px;
-  *zoom: 1;
-}
-#story_page .form-widget:before,
-#story_page .form-widget:after {
-  content: "";
-  display: table;
-}
-#story_page .form-widget:after {
-  clear: both;
-}
-#story_page .form-widget:before,
-#story_page .form-widget:after {
-  display: table;
-  content: "";
-}
-#story_page .form-widget:after {
-  clear: both;
-}
-#story_page .form-widget h1 {
-  text-align: center;
-}
-#story_page h2 {
-  color: #FFF;
-  font-size: 26px;
-  float: left;
-  margin-right: 10px;
-}
-#story_page .social_icons {
-  width: 165px;
-  padding-top: 6px;
-  float: right;
-}
-#story_page .social_icons .fb_edge_widget_with_comment {
-  padding-right: 10px;
-}
-#story_page .social_icons .fb_edge_widget_with_comment,
-#story_page .social_icons #twitter-widget-0 {
-  float: left;
-}
-#story_page .social_icons #twitter-widget-0 {
-  width: 82px !important;
-}
-#story_page header {
-  *zoom: 1;
-  height: auto;
-  display: inline-block;
-  width: 100%;
-  float: left;
-}
-#story_page header:before,
-#story_page header:after {
-  content: "";
-  display: table;
-}
-#story_page header:after {
-  clear: both;
-}
-#story_page header:before,
-#story_page header:after {
-  display: table;
-  content: "";
-}
-#story_page header:after {
-  clear: both;
-}
-#story_page .inline-form {
-  clear: both;
-  float: left;
-  width: 100%;
-  margin: 10px 0;
-}
-#story_page .inline-form .entry {
-  width: 30.75%;
-  display: inline-block;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-#story_page .inline-form .entry label {
-  display: block;
-}
-#story_page .inline-form .entry input[type="text"],
-#story_page .inline-form .entry form#contactus textarea {
-  padding-left: 2%;
-  padding-right: 2%;
-  width: 93%;
-}
-#story_page .inline-form input[type="submit"] {
-  background-color: #2b99c1;
-  display: inline-block;
-  padding: 3px 5px;
-  font-size: 1.2em;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  float: right;
-  color: white;
-  font-family: "league-gothic";
-  text-transform: uppercase;
-  border: 0;
-  width: 50px;
-  float: none;
-  -webkit-box-shadow: 2px 3px 0px #bacc3f;
-  -moz-box-shadow: 2px 3px 0px #bacc3f;
-  box-shadow: 2px 3px 0px #bacc3f;
-}
-#story_page .inline-form input[type="submit"]:hover {
-  -webkit-transition: background-color ease 500ms;
-  -moz-transition: background-color ease 500ms;
-  -ms-transition: background-color ease 500ms;
-  -o-transition: background-color ease 500ms;
-  transition: background-color ease 500ms;
-  background-color: #ea2485;
-}
-#story_page .inline-form #id_comment {
-  width: 400px;
-  height: 47px;
-}
-#story_page .inline-form p.disclaimer {
-  font-size: 0.8em;
-  margin: 10px 8px 0 0;
-  float: right;
-}
-#story_page .inline-form div#signup-replacement {
-  padding: 10px 25px;
-  float: left;
-}
-#story_page .inline-form .ak_petition_text {
-  display: inline-block;
-  float: left;
-  margin-top: 10px;
-}
-#story_page .inline-form .extra-fields {
-  width: 350px;
-  position: relative;
-  margin-top: 10px;
-}
-#story_page ul.story_list {
-  -webkit-column-count: 3;
-  -webkit-column-gap: 20px;
-  -moz-column-count: 3;
-  -moz-column-gap: 20px;
-  column-count: 3;
-  column-gap: 20px;
-  margin: 0;
-  padding: 20px;
-  list-style: none;
-}
-#story_page ul.story_list .story {
-  background-color: #FFF;
-  padding: 10px;
-  margin-bottom: 20px;
-  display: inline-block;
-  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 100%;
-}
-#story_page ul.story_list .story.featured {
-  background-color: #ea2485;
-  color: #222;
-  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
-}
-#story_page ul.story_list .story b,
-#story_page ul.story_list .story em,
-#story_page ul.story_list .story blockquote {
-  font-size: 1.5em;
-  font-family: "adobe garamond pro", serif;
-  display: block;
-  font-style: italic;
-  padding: 10px 0;
-}
-#story_page ul.story_list .story .name {
-  text-align: right;
-}
-#story_page ul.story_list .story .name:before {
-  content: "-";
-}
 
 /* SOCIAL MEDIA BREAK */
 .breaker {
   text-align: center;
 }
-/* BEGIN GLOBAL CONTENT */
+
+/* GENERAL */
 body {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -712,6 +518,87 @@ section.content:after {
   color: #221e20;
   -webkit-margin-before: .1em;
   -webkit-margin-after: .1em;
+}
+
+/* HANGOUTS */
+.hangouts h3 {
+  font-size: 21px;
+  margin-top: 0;
+}
+.hangouts form {
+  margin-left: 30px;
+}
+.hangouts form input {
+  margin-bottom: 10px;
+  width: 160px;
+}
+.hangouts select {
+  width:170px;
+}
+.hangouts form label {
+  font-size: 20px;
+  width: 100px;
+  float: left;
+  position: relative;
+  top: 3px;
+  margin-right: 10px;
+  text-align: right;
+}
+.hangouts form input[type="submit"] {
+  background-color: #999999;
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 1.2em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  float: right;
+  color: white;
+  font-family: "league-gothic";
+  text-transform: uppercase;
+  border: 0;
+  width: 75px;
+  -webkit-box-shadow: 1px 2px 0px #bacc3f;
+  -moz-box-shadow: 1px 2px 0px #bacc3f;
+  box-shadow: 1px 2px 0px #bacc3f;
+  float: none;
+  margin-right:50px;
+  margin-left:75px;
+}
+.hangouts form input[type="submit"]:hover {
+  -webkit-transition: background-color ease 500ms;
+  -moz-transition: background-color ease 500ms;
+  -ms-transition: background-color ease 500ms;
+  -o-transition: background-color ease 500ms;
+  transition: background-color ease 500ms;
+  background-color: #ea2485;
+}
+.hangouts form span {
+  font-size: 14px;
+  color: #fff;
+  text-align:center;
+  display:block;
+  margin-bottom:-5px;
+}
+#rsvp {
+  width:460px;
+  float:left;
+  clear:none;
+}
+#suggest {
+  width:460px;
+  float:right;
+  clear:none;
+}
+.aboutbox {
+  font-family: sans-serif;
+  color:white;
+  font-size:14px;
+  text-align:justify;
+}
+.aboutclick {
+  text-align:center;
+  display:block;
 }
 
 /* ACTIONKIT WIDGETS */
