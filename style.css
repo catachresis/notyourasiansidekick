@@ -398,6 +398,8 @@ body:after {
 /* SOCIAL MEDIA BREAK */
 .breaker {
   text-align: center;
+  display:inline-block;
+  width:940px;
 }
 
 /* GENERAL */
@@ -443,8 +445,7 @@ p {
   font-family: "Helvetica";
 }
 form input[type="text"],
-form input[type="email"],
-textarea {
+form input[type="email"] {
   border: 0;
   padding: 5px;
   background: rgba(255, 255, 255, 0.4);
@@ -453,6 +454,16 @@ textarea {
   border-radius: 7px;
   margin-right:10px;
   margin-left:10px;
+}
+textarea {
+  border: 0;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.4);
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  margin-bottom:12px;
+  margin-left:65px;
 }
 h1 {
   color: #fff;
@@ -521,6 +532,9 @@ section.content:after {
 }
 
 /* HANGOUTS */
+.hangouts {
+
+}
 .hangouts h3 {
   font-size: 21px;
   margin-top: 0;
@@ -552,7 +566,7 @@ section.content:after {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  float: right;
+  float: left;
   color: white;
   font-family: "league-gothic";
   text-transform: uppercase;
@@ -561,8 +575,7 @@ section.content:after {
   -webkit-box-shadow: 1px 2px 0px #bacc3f;
   -moz-box-shadow: 1px 2px 0px #bacc3f;
   box-shadow: 1px 2px 0px #bacc3f;
-  float: none;
-  margin-right:50px;
+  margin-right:-20px;
   margin-left:75px;
 }
 .hangouts form input[type="submit"]:hover {
@@ -579,6 +592,7 @@ section.content:after {
   text-align:center;
   display:block;
   margin-bottom:-5px;
+  padding-top:5px;
 }
 #rsvp {
   width:460px;
@@ -599,6 +613,11 @@ section.content:after {
 .aboutclick {
   text-align:center;
   display:block;
+}
+.fw-label {
+  text-align:center !important;
+  width:400px !important;
+  margin-bottom: 12px;
 }
 
 /* ACTIONKIT WIDGETS */
