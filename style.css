@@ -395,11 +395,167 @@ body:after {
   clear: both;
 }
 
-/* SOCIAL MEDIA BREAK */
+/* SOCIAL MEDIA */
+/* MID-PAGE */
 .breaker {
   text-align: center;
   display:inline-block;
   width:940px;
+}
+/* ON COMPLETE */
+#social {
+  list-style: none;
+  margin-right: 0;
+}
+#social li {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  background: #d7cebc;
+  margin-bottom: 12px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 9px 15px;
+  *zoom: 1;
+  font-family: "league-gothic";
+  text-transform: uppercase;
+}
+#social li:before,
+#social li:after {
+  content: "";
+  display: table;
+}
+#social li:after {
+  clear: both;
+}
+#social li:before,
+#social li:after {
+  display: table;
+  content: "";
+}
+#social li:after {
+  clear: both;
+}
+#social li a {
+  color: #231f20;
+  display: block;
+  font-style: normal;
+}
+#social li a.active {
+  color: white;
+}
+#social li .comment_count {
+  background-color: #ebdd14;
+  display: block;
+  padding: 5px 10px;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "league-gothic";
+  font-size: 16px;
+  line-height: 24px;
+  overflow: hidden;
+  width: 29px;
+  height: 29px;
+}
+#social li .comment_count.facebook {
+  background: url("images/facebook_logo_sprite.png") no-repeat;
+}
+#social li .comment_count.facebook:hover {
+  background-position: 0 -29px;
+}
+#social li .comment_count.twitter {
+  background: url("images/twitter_logo_sprite.png") no-repeat;
+}
+#social li .comment_count.twitter:hover {
+  background-position: 0 -29px;
+}
+#social li .comment_count a {
+  bottom: 1px;
+  color: #231f20;
+  font-size: 22px;
+}
+#social li .comment_count a.active {
+  color: white;
+}
+#social li span {
+  position: absolute;
+}
+#social li span.active {
+  color: white;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+#social li span a {
+  width: 240px;
+  position: relative;
+}
+#social li span a.active {
+  color: white;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+#social li:hover {
+  background-color: #ea2485;
+  -webkit-transition: background-color ease 500ms;
+  -moz-transition: background-color ease 500ms;
+  -ms-transition: background-color ease 500ms;
+  -o-transition: background-color ease 500ms;
+  transition: background-color ease 500ms;
+}
+li.post ul#social,
+aside ul#social {
+  /* display: inline; */
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+  margin-right: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+li.post ul#social a,
+aside ul#social a {
+  color: #231f20;
+  display: block;
+  font-style: normal;
+}
+ul#social {
+  padding-left:0;
+}
+li.post ul#social a.active,
+aside ul#social a.active {
+  color: white;
+}
+li.post ul#social li .comment_count.active,
+aside ul#social li .comment_count.active {
+  background-position: 0 -29px;
+}
+ul#social li span,
+aside ul#social li span {
+  top: 25%;
+  left: 20%;
+  font-size: 21px;
+}
+aside ul#social {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+#pledge-replacement ul#social {
+  margin-top: 10px;
+  width: 100%;
+  float: none;
+}
+#pledge-replacement ul#social a {
+  color: #231f20;
+  font-style: normal;
 }
 
 /* GENERAL */
