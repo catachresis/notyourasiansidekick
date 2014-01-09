@@ -467,7 +467,7 @@ textarea {
   margin-left:65px;
 }
 h1 {
-  color: #fff;
+  color: #221e20;
   font-size: 41px;
   margin: 0;
   text-align:center;
@@ -606,6 +606,20 @@ li#first {
 }
 #headermenu a:hover {
   font-style:normal;
+}
+#headermenu li.thispage {
+  background-color:#ea2485;
+}
+
+/* ABOUT PAGE */
+#about {
+  padding: 10px;
+  border-width: 2px;
+  border-color: #bacc3f;
+  border-style: solid;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
 }
 
 /* SOCIAL MEDIA */
