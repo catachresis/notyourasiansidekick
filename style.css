@@ -230,7 +230,7 @@ textarea {
   margin: 0;
   vertical-align: baseline;
   *vertical-align: middle;
-  color:#bacc3f;
+  color:#221e20;
 }
 /*
  * 1. Define line-height as normal to match FF3/4 (set using !important in the UA stylesheet)
@@ -269,16 +269,16 @@ select {
   margin-right: 75px;
   margin-left: 10px;
   margin-bottom: 10px;
-  background: rgba(255, 255, 255, 0.4);
+  background: #ddd;
   border: 0px;
   padding: 5px;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   border-radius: 7px;
-  color:#bacc3f;
+  color:#221e20;
 }
 option{
-  color:#bacc3f;
+  color:#221e20;
 }
 /* 
  * Remove inner padding and border in FF3/4
@@ -449,7 +449,7 @@ form input[type="text"],
 form input[type="email"] {
   border: 0;
   padding: 5px;
-  background: rgba(255, 255, 255, 0.4);
+  background: #ddd;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   border-radius: 7px;
@@ -459,12 +459,12 @@ form input[type="email"] {
 textarea {
   border: 0;
   padding: 5px;
-  background: rgba(255, 255, 255, 0.4);
+  background: #ddd;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   border-radius: 7px;
   margin-bottom:12px;
-  margin-left:65px;
+  margin-left:10px;
 }
 h1 {
   color: #221e20;
@@ -536,6 +536,11 @@ section.content:after {
 }
 #homefeature {
   position:relative;
+  background-color: #ddd
+}
+#homefeature img {
+  margin:auto;
+  display:block;
 }
 .imageoverlay{
   position:absolute;
@@ -693,6 +698,11 @@ li#first {
   background-position:0 0;
 }
 /* AK ON COMPLETE */
+#suggestform-replacement {
+  width:500px;
+  display:block;
+  margin:auto;
+}
 #social {
   list-style: none;
   margin-right: 0;
@@ -702,6 +712,7 @@ li#first {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   position: relative;
+  width:500px;
   background: #d7cebc;
   margin-bottom: 12px;
   -webkit-border-radius: 10px;
@@ -729,7 +740,7 @@ li#first {
   clear: both;
 }
 #social li a {
-  color: #231f20;
+  color: #221e20;
   display: block;
   font-style: normal;
 }
@@ -832,6 +843,7 @@ aside ul#social li span {
   top: 25%;
   left: 20%;
   font-size: 21px;
+  color: #221e20;
 }
 aside ul#social {
   position: relative;
@@ -848,34 +860,43 @@ aside ul#social {
   font-style: normal;
 }
 
-/* HANGOUTS */
-.hangouts {
-
+/* SUGGEST */
+#suggest form{
+  width:500px;
+  margin:auto;
+  padding-bottom:10px;
 }
-.hangouts h3 {
-  font-size: 21px;
+#suggest {
+  width:940px;
+  clear:none;
+}
+#suggest p {
+  color: #221e20;
+  font-size: 16px;
+  line-height:1.3em;
+}
+#suggest h3 {
+  font-size: 24px;
   margin-top: 0;
 }
-.hangouts form {
-  margin-left: 30px;
-}
-.hangouts form input {
+#suggest form input {
   margin-bottom: 10px;
   width: 160px;
 }
-.hangouts select {
+#suggest select {
   width:170px;
 }
-.hangouts form label {
+#suggest form label {
+  color:#221e20;
   font-size: 20px;
-  width: 100px;
+  width: 160px;
   float: left;
   position: relative;
   top: 3px;
   margin-right: 10px;
   text-align: right;
 }
-.hangouts form input[type="submit"] {
+#suggest form input[type="submit"] {
   background-color: #999999;
   display: inline-block;
   padding: 3px 5px;
@@ -892,10 +913,10 @@ aside ul#social {
   -webkit-box-shadow: 1px 2px 0px #bacc3f;
   -moz-box-shadow: 1px 2px 0px #bacc3f;
   box-shadow: 1px 2px 0px #bacc3f;
-  margin-right:-20px;
-  margin-left:75px;
+  margin-right:-120px;
+  margin-left:180px;
 }
-.hangouts form input[type="submit"]:hover {
+#suggest form input[type="submit"]:hover {
   -webkit-transition: background-color ease 500ms;
   -moz-transition: background-color ease 500ms;
   -ms-transition: background-color ease 500ms;
@@ -903,43 +924,20 @@ aside ul#social {
   transition: background-color ease 500ms;
   background-color: #ea2485;
 }
-.hangouts form span {
+#suggest form span {
   font-size: 14px;
-  color: #fff;
+  color: #221e20;
   text-align:center;
   display:block;
   margin-bottom:-5px;
   padding-top:5px;
 }
-#rsvp {
-  width:460px;
-  float:left;
-  clear:none;
-}
-#suggest {
-  width:460px;
-  float:right;
-  clear:none;
-}
-.aboutbox {
-  font-family: sans-serif;
-  color:white;
-  font-size:14px;
-  text-align:justify;
-}
-.aboutclick {
-  text-align:center;
-  display:block;
-}
-.fw-label {
-  text-align:center !important;
-  width:400px !important;
-  margin-bottom: 12px;
-}
 
 /* ACTIONKIT WIDGETS */
 .akwidget {
-  background-color: #221e20;
+  border-width: 2px;
+  border-color: #bacc3f;
+  border-style: solid;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -949,8 +947,6 @@ aside ul#social {
   box-sizing: border-box;
   display: block;
   clear: both;
-  margin-bottom:20px;
-  margin-top:30px;
 }
 
 /* STICKER ORDER BLOCK (Out of Service) */
