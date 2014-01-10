@@ -653,9 +653,7 @@ li#first {
 #headermenu li.thispage {
   background-color:#ea2485;
 }
-
-/* ABOUT PAGE */
-#about {
+.text {
   padding: 10px;
   border-width: 2px;
   border-color: #bacc3f;
