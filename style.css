@@ -464,7 +464,8 @@ textarea {
   -moz-border-radius: 7px;
   border-radius: 7px;
   margin-bottom:12px;
-  margin-left:10px;
+  margin-left:180px;
+  margin-top: -15px;
 }
 h1 {
   color: #221e20;
@@ -474,6 +475,8 @@ h1 {
 }
 h2 {
   color: #ea2485;
+  text-align:center;
+  margin-top: -5px;
 }
 h3 {
   color: white;
@@ -483,6 +486,11 @@ h4 {
   color: #231f20;
   font-size: 17px;
   text-transform: uppercase;
+}
+p {
+  font-size:1.2em;
+  line-height:1.3em;
+  text-align: justify;
 }
 label {
   color: rgba(255, 255, 255, 0.7);
@@ -536,11 +544,41 @@ section.content:after {
 }
 #homefeature {
   position:relative;
-  background-color: #ddd
+  background-color: #d7cebc;
 }
 #homefeature img {
   margin:auto;
   display:block;
+}
+#rsvplink {
+  background-color: white;
+}
+.aboutclick {
+  background-color: #999999;
+  display: block;
+  padding: 3px 5px;
+  font-size: 2em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: white;
+  font-family: "league-gothic";
+  text-transform: uppercase;
+  border: 0;
+  width: 300px;
+  -webkit-box-shadow: 1px 2px 0px #bacc3f;
+  -moz-box-shadow: 1px 2px 0px #bacc3f;
+  box-shadow: 1px 2px 0px #bacc3f;
+  text-align: center;
+  margin: auto;
+}
+.aboutclick:hover {
+  background-color: #ea2485;
+  -webkit-transition: background-color ease 500ms;
+  -moz-transition: background-color ease 500ms;
+  -ms-transition: background-color ease 500ms;
+  -o-transition: background-color ease 500ms;
+  transition: background-color ease 500ms;
 }
 .imageoverlay{
   position:absolute;
@@ -860,33 +898,43 @@ aside ul#social {
   font-style: normal;
 }
 
-/* SUGGEST */
-#suggest form{
+/* ACTIONKIT WIDGETS */
+.akwidget {
+  border-width: 2px;
+  border-color: #bacc3f;
+  border-style: solid;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  clear: both;
+}
+.akwidget form{
   width:500px;
   margin:auto;
-  padding-bottom:10px;
+  padding-bottom:15px;
 }
-#suggest {
-  width:940px;
-  clear:none;
-}
-#suggest p {
+.akwidget p {
   color: #221e20;
   font-size: 16px;
   line-height:1.3em;
 }
-#suggest h3 {
+.akwidget h3 {
   font-size: 24px;
   margin-top: 0;
 }
-#suggest form input {
+.akwidget form input {
   margin-bottom: 10px;
   width: 160px;
 }
-#suggest select {
+.akwidget select {
   width:170px;
 }
-#suggest form label {
+.akwidget form label {
   color:#221e20;
   font-size: 20px;
   width: 160px;
@@ -913,10 +961,30 @@ aside ul#social {
   -webkit-box-shadow: 1px 2px 0px #bacc3f;
   -moz-box-shadow: 1px 2px 0px #bacc3f;
   box-shadow: 1px 2px 0px #bacc3f;
-  margin-right:-120px;
+  margin-right:-50px;
   margin-left:180px;
 }
-#suggest form input[type="submit"]:hover {
+#rsvp-form form input[type="submit"] {
+  background-color: #999999;
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 1.2em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  float: left;
+  color: white;
+  font-family: "league-gothic";
+  text-transform: uppercase;
+  border: 0;
+  width: 75px;
+  -webkit-box-shadow: 1px 2px 0px #bacc3f;
+  -moz-box-shadow: 1px 2px 0px #bacc3f;
+  box-shadow: 1px 2px 0px #bacc3f;
+  margin-right:-115px;
+  margin-left:180px;
+}
+.akwidget form input[type="submit"]:hover {
   -webkit-transition: background-color ease 500ms;
   -moz-transition: background-color ease 500ms;
   -ms-transition: background-color ease 500ms;
@@ -924,29 +992,13 @@ aside ul#social {
   transition: background-color ease 500ms;
   background-color: #ea2485;
 }
-#suggest form span {
+.akwidget form span {
   font-size: 14px;
   color: #221e20;
   text-align:center;
   display:block;
   margin-bottom:-5px;
   padding-top:5px;
-}
-
-/* ACTIONKIT WIDGETS */
-.akwidget {
-  border-width: 2px;
-  border-color: #bacc3f;
-  border-style: solid;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  padding: 10px 15px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  display: block;
-  clear: both;
 }
 
 /* STICKER ORDER BLOCK (Out of Service) */
