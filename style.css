@@ -661,6 +661,21 @@ li#first {
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
+  float:left;
+}
+
+/* ARCHIVE */
+.flyer img {
+  width:350px;
+  float:left;
+}
+.flyer {
+  width: 350px;
+  float:left;
+  padding-top:10px;
+}
+.video-embed {
+  float:right;
 }
 
 /* SOCIAL MEDIA */
