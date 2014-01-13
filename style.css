@@ -666,13 +666,14 @@ li#first {
 
 /* ARCHIVE */
 .flyer img {
-  width:350px;
+  width:340px;
   float:left;
 }
 .flyer {
-  width: 350px;
+  width: 340px;
   float:left;
-  padding-top:10px;
+  padding-top:15px;
+  margin-right:10px;
 }
 .video-embed {
   float:right;
